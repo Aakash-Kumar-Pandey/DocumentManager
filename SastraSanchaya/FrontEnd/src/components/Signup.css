@@ -1,0 +1,116 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signup-form {
+    width: calc(50% - 40px);
+    padding: 20px;
+    margin-top: -19px;
+}
+
+.signup-image img {
+    max-width: 100%;
+    max-height: calc(100vh - 40px);
+    border-radius: 10px;
+    
+}
+
+#organization{
+    width: calc(110% - 25px);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #5161ce; /* Adjusted color */
+}
+
+.form-group {
+    margin-bottom: 7px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #5161ce;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4054b2;
+}
+
+/* Flaticon icon styles */
+.flaticon-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+/* Adjust icon color */
+.flaticon-icon path {
+    fill: #5161ce;
+}
+
+.signup-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.signup-icon path {
+    fill: whitesmoke;
+  }
+  
+
+/* Add styling to password fields */
+input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    /* Increase padding on the right to accommodate the eye icon */
+    padding-right: 40px;
+}
+
+/* Add additional styling for password fields */
+.password-wrapper {
+    position: relative;
+}
+
+/* Adjust the position of the eye icon */
+.password-toggle {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Adjust icon color */
+.password-toggle path {
+    fill: #5161ce;
+}
